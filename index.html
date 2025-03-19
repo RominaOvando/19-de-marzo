@@ -3,40 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabla de Elementos HTML</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
     <header>
         <nav>
-            <u1>
+            <ul>
                 <li><a href="index.html">HTML</a></li>
                 <li><a href="css.html">CSS</a></li>
                 <li><a href="js.html">JS</a></li>
-            </u1>
+            </ul>
         </nav>
     </header>
     <main>
         <h1>HTML</h1>
-    </main>
         <table>
             <thead>
                 <tr>
                     <th>No</th>
                     <th>Elemento</th>
-                    <th>Proposito</th>
+                    <th>Propósito</th>
                     <th>Ejemplo</th>
                 </tr>
             </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>&lt;div&gt;</td>
+                    <td>Elemento contenedor genérico</td>
+                    <td>&lt;div&gt;Contenido&lt;/div&gt;</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>&lt;p&gt;</td>
+                    <td>Define un párrafo</td>
+                    <td>&lt;p&gt;Hola, mundo!&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>&lt;a&gt;</td>
+                    <td>Crear enlaces</td>
+                    <td>&lt;a href="https://www.google.com"&gt;Google&lt;/a&gt;</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>&lt;img&gt;</td>
+                    <td>Insertar imágenes</td>
+                    <td>&lt;img src="imagen.jpg" alt="Descripción"&gt;</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>&lt;ul&gt;</td>
+                    <td>Lista desordenada</td>
+                    <td>&lt;ul&gt;&lt;li&gt;Item 1&lt;/li&gt;&lt;li&gt;Item 2&lt;/li&gt;&lt;/ul&gt;</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>&lt;ol&gt;</td>
+                    <td>Lista ordenada</td>
+                    <td>&lt;ol&gt;&lt;li&gt;Paso 1&lt;/li&gt;&lt;li&gt;Paso 2&lt;/li&gt;&lt;/ol&gt;</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>&lt;table&gt;</td>
+                    <td>Crear tablas</td>
+                    <td>&lt;table&gt;&lt;tr&gt;&lt;td&gt;Celda&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>&lt;form&gt;</td>
+                    <td>Formulario para entrada de datos</td>
+                    <td>&lt;form&gt;&lt;input type="text"&gt;&lt;/form&gt;</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>&lt;input&gt;</td>
+                    <td>Campo de entrada de datos</td>
+                    <td>&lt;input type="text"&gt;</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>&lt;button&gt;</td>
+                    <td>Botón interactivo</td>
+                    <td>&lt;button&gt;Click me&lt;/button&gt;</td>
+                </tr>
+            </tbody>
         </table>
-        <tbody>
-            <tr>
-                <td>1 </td>
-                <td>div</td>
-                <td>elemento</td>
-                <td>
-                    div
-                </td>
-            </tr>
-        </tbody>
+    </main>
 </body>
 </html>
